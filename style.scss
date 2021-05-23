@@ -99,6 +99,18 @@ a{
 }
 // Close Landing
 
+//Start about
+#about{
+    .section-title{
+        font-family: $contentFont;
+        font-weight: 200;
+    }
+    img{
+        width: 350px;
+    }
+}
+//End about
+
 //Start NAV
 .navbar{
     position: fixed;
@@ -252,7 +264,6 @@ a{
 // Close Resume
 
 //GALLERY SECTION
-
 .gallery{
     .section-title{
         font-family: $contentFont;
@@ -284,12 +295,9 @@ a{
 .active{
     width: 300px;
     height: 200px;
-    background-color: white;
+    border: white solid 2px;
 }
 }
-
-
-
 //END GALLERY SECTION
     
 
